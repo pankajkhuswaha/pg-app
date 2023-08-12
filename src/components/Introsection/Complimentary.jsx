@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { Complementdata } from "../../constants/complementdata";
+// ""
 import "../component.css";
 import Amenities from "./Amenities/Amenities";
 import Accomodation from "./Accomodation";
