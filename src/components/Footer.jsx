@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="flex mt-8 space-x-6 text-gray-600">
                 <a
                   className="hover:opacity-75"
-                  href
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -34,7 +34,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -54,7 +54,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -70,7 +70,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -90,7 +90,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -114,13 +114,13 @@ const Footer = () => {
               <div>
                 <p className="font-medium">Category</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     Single Occupancy
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                   Double Occupancy
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                   Triple Occupancy
                   </a>
                 </nav>
@@ -128,15 +128,15 @@ const Footer = () => {
               <div>
                 <p className="font-medium">Helpful Links</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Contact{" "}
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     FAQs{" "}
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Live Chat{" "}
                   </a>
@@ -145,19 +145,19 @@ const Footer = () => {
               <div>
                 <p className="font-medium">Legal</p>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Privacy Policy{" "}
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Terms &amp; Conditions{" "}
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Returns Policy{" "}
                   </a>
-                  <a className="hover:opacity-75" href>
+                  <a className="hover:opacity-75" href="#">
                     {" "}
                     Accessibility{" "}
                   </a>

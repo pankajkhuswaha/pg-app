@@ -1,5 +1,5 @@
 import React from "react";
-import { Amenitiesdata } from "../../../constants/complementdata";
+import { Amenitiesdata } from "../../../constants/Complementdata";
 import { Stack } from "@mui/material";
 import Image from "next/image";
 

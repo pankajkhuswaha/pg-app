@@ -1,4 +1,4 @@
-import { Accomodations } from "../../constants/complementdata";
+import { Accomodations } from "../../constants/Complementdata";
 import { Stack } from "@mui/material";
 import "../component.css";
 import Image from "next/image";

@@ -57,8 +57,7 @@ function Header() {
           p={2}
           alignItems={"center"}
           justifyContent={"space-between"}
-          flexDirection={"row"}
-          disableGutters
+          flexDirection={"row"}          
         >
           <Typography
             variant="h6"
