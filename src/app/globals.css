@@ -16,8 +16,10 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+body {  
+    scroll-behavior: smooth;
+}
+footer{
   background: linear-gradient(
       to bottom,
       transparent,
