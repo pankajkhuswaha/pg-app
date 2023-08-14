@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 function Example() {
   return (
     <div style={{ padding: "12px 92px " }}>
-     
+     Him from example
     </div>
   );
 }
