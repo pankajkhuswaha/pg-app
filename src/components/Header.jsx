@@ -3,6 +3,8 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import PersonIcon from "@mui/icons-material/Person";
+import CallIcon from "@mui/icons-material/Call";
+
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
@@ -48,8 +50,6 @@ function Header() {
     setAnchorElUser(null);
   };
 
-  const pathname = "";
-
   return (
     <AppBar position="sticky" sx={appBarStyle}>
       <Container maxWidth="xl">
@@ -57,7 +57,7 @@ function Header() {
           p={2}
           alignItems={"center"}
           justifyContent={"space-between"}
-          flexDirection={"row"}          
+          flexDirection={"row"}
         >
           <Typography
             variant="h6"
@@ -81,7 +81,7 @@ function Header() {
                 <h6 style={{ color: "orangered" }}>HOME</h6>
               </ListItemIcon>
             </Link>
-            <Link href={"/#services"}>
+            <Link href={"/#services"} scroll={true}>
               <ListItemIcon sx={{ marginRight: "10px", cursor: "pointer" }}>
                 <MiscellaneousServicesIcon
                   style={{ color: "orangered", fontSize: "20px" }}
@@ -90,22 +90,19 @@ function Header() {
               </ListItemIcon>
             </Link>
             <Link href={"/#home"}>
-               <ListItemIcon sx={{ marginRight: "10px", cursor: "pointer" }}>
+              <ListItemIcon sx={{ marginRight: "10px", cursor: "pointer" }}>
                 <MiscellaneousServicesIcon
                   style={{ color: "orangered", fontSize: "20px" }}
                 />
                 <h6 style={{ color: "orangered" }}>ABOUT</h6>
               </ListItemIcon>
             </Link>
-            <Link href={"/#home"}>
-            <ListItemIcon sx={{ marginRight: "10px", cursor: "pointer" }}>
-                <MiscellaneousServicesIcon
-                  style={{ color: "orangered", fontSize: "20px" }}
-                />
-                <h6 style={{ color: "orangered" }}>Contact us</h6>
+            <Link href={"/#contact"}>
+              <ListItemIcon sx={{ marginRight: "10px", cursor: "pointer" }}>
+                <CallIcon style={{ color: "orangered", fontSize: "20px" }} />
+                <h6 style={{ color: "orangered" }}> CONTACT</h6>
               </ListItemIcon>
             </Link>
-            
           </Stack>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -168,17 +165,6 @@ function Header() {
 
           <Stack flexDirection={"row"} gap={3} alignItems={"center"}>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {/* <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon style={{ color: "orangered" }} />
-              </IconButton> */}
-
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorElNav}
@@ -204,7 +190,17 @@ function Header() {
                 ))}
               </Menu>
             </Box>
-
+            <Link href={"/bookpg"}>
+              <h6
+                style={{
+                  borderRadius: "5px",
+                  padding: "8px",
+                  background: "orangered",
+                }}
+              >
+                Book Now
+              </h6>
+            </Link>
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
