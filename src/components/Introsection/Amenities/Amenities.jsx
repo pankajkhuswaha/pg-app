@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const Amenities = () => {
   return (
-    <div className="Amenitiesmain">
+    <div
+      className="Amenitiesmain "
+      style={{ position: "relative", top: "32px" }}
+    >
       <h2 className="text-3xl">Amenities List</h2>
       <br />
       <p style={{ width: "60%", margin: "auto" }}>
